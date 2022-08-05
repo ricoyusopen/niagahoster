@@ -8,7 +8,7 @@
     <!--<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
     <link rel="stylesheet" href="<?=base_url()?>assets/mystyle.css">
-    <title>RICO-TES NIAGAHOSTER</title>
+    <title>RICO - TES FULLSTACK NIAGAHOSTER</title>
   </head>
   <body>
     <div class="container-fluid border-bottom">
@@ -54,35 +54,8 @@
               <a class="nav-link" href="<?php echo $menu['link'];?>"> <?php echo $menu['menu_name'];?> <span class="sr-only">(current)</span></a>
             </li>
             <?php } ?>
-            <!-- <li class="nav-item">
-              <a class="nav-link" href="#">Domain</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Server</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Website</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Afiliasi</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Promo</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pembayaran</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Review</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#kontak">Kontak</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
-            </li> -->
           </ul>
         </div>
       </div>
     </nav>
-      <div class="clear-fix"> </div>
+    <div class="clear-fix"> </div>

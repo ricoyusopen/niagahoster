@@ -59,7 +59,7 @@
 
           <div class="col-md-12">
             <?php foreach($hosting->result_array() as $paket){ ?>
-            <div class="card <?php if($paket['best_seller']=="1"){echo "crd-best";} ?>" style="width: 15rem;float:left; border:none; ">
+            <div class="card <?php if($paket['best_seller']=="1"){echo "crd-best";} ?>" style="width: 15rem;float:left;  ">
               <ul class="list-group list-group-flush">
                 <li class="list-group-item text-center <?php if($paket['best_seller']==1){echo "li-best";} ?>">
                   <h4><?php echo $paket['package_name']?></h4>

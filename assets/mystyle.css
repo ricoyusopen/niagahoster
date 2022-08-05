@@ -6,42 +6,43 @@ body,html{
 
 @font-face {
          font-family: 'Montserrat-Bold';
-         src: url('assets/fonts/montserrat/Montserrat-Bold.otf');
+         src: url('fonts/montserrat/Montserrat-Bold.otf');
          font-family: 'Montserrat-Black';
-         src: url('assets/fonts/montserrat/Montserrat-Black.otf');
+         src: url('fonts/montserrat/Montserrat-Black.otf');
          font-family: 'Montserrat-Hairline';
-         src: url('assets/fonts/montserrat/Montserrat-Hairline.otf');
+         src: url('fonts/montserrat/Montserrat-Hairline.otf');
          font-family: 'Montserrat-Light';
-         src: url('assets/fonts/montserrat/Montserrat-Light.otf');
+         src: url('fonts/montserrat/Montserrat-Light.otf');
          font-family: 'Montserrat-Regular';
-         src: url('assets/fonts/montserrat/Montserrat-Regular.otf');
+         src: url('fonts/montserrat/Montserrat-Regular.otf');
 
          font-family: 'Roboto-Black';
-         src: url('assets/fonts/roboto/Roboto-Black.ttf');
+         src: url('fonts/roboto/Roboto-Black.ttf');
          font-family: 'Roboto-BlackItalic';
-         src: url('assets/fonts/roboto/Roboto-BlackItalic.ttf');   
+         src: url('fonts/roboto/Roboto-BlackItalic.ttf');   
          font-family: 'Roboto-Bold';
-         src: url('assets/fonts/roboto/Roboto-Bold.ttf'); 
+         src: url('fonts/roboto/Roboto-Bold.ttf'); 
          font-family: 'Roboto-BoldCondensed';
-         src: url('assets/fonts/roboto/Roboto-BoldCondensed.ttf');   
+         src: url('fonts/roboto/Roboto-BoldCondensed.ttf');   
          font-family: 'Roboto-BoldCondensedItalic';
-         src: url('assets/fonts/roboto/Roboto-BoldCondensedItalic.ttf'); 
+         src: url('fonts/roboto/Roboto-BoldCondensedItalic.ttf'); 
          font-family: 'Roboto-BoldItalic';
-         src: url('assets/fonts/roboto/Roboto-BoldItalic.ttf'); 
+         src: url('fonts/roboto/Roboto-BoldItalic.ttf'); 
          font-family: 'Roboto-Italic';
-         src: url('assets/fonts/roboto/Roboto-Italic.ttf'); 
+         src: url('fonts/roboto/Roboto-Italic.ttf'); 
          font-family: 'Roboto-Light';
-         src: url('assets/fonts/roboto/Roboto-Light.ttf'); 
+         src: url('fonts/roboto/Roboto-Light.ttf'); 
          font-family: 'Roboto-LightItalic';
-         src: url('assets/fonts/roboto/Roboto-LightItalic.ttf');
+         src: url('fonts/roboto/Roboto-LightItalic.ttf');
          font-family: 'Roboto-Medium';
-         src: url('assets/fonts/roboto/Roboto-MediumItalic.ttf'); 
+         src: url('fonts/roboto/Roboto-MediumItalic.ttf'); 
          font-family: 'Roboto-Regular';
-         src: url('assets/fonts/roboto/Roboto-Regular.ttf');
+         src: url('fonts/roboto/Roboto-Regular.ttf');
          font-family: 'Roboto-Thin';
-         src: url('assets/fonts/roboto/Roboto-Thin.ttf');
+         src: url('fonts/roboto/Roboto-Thin.ttf');
          font-family: 'Roboto-ThinItalic';
-         src: url('assets/fonts/roboto/Roboto-ThinItalic.ttf');
+         src: url('fonts/roboto/Roboto-ThinItalic.ttf');
+         
 }
 
 .nv-bg-light{
@@ -58,7 +59,7 @@ body,html{
     font-family:'Montserrat-Bold';
 }
 
-.p-sub-title{
+.p-sub-title{ 
     font-size: 35px;
     line-height: 45px;
     color: rgba(0,0,0,.7);
@@ -131,13 +132,14 @@ body,html{
 }
 
 
-.li-best{
+.li-best {
     position: relative;
     display: block;
     padding: .75rem 1.25rem;
     border: none;
     background-color:#007bff;
     color:#fff;
+    font-family:'Montserrat-Bold';
 }
 
 .li-selected2{
