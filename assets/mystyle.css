@@ -1,0 +1,158 @@
+body,html{
+  color:rgba(0,0,0,.7);
+  font-size: 14px;
+ 
+}
+
+@font-face {
+         font-family: 'Montserrat-Bold';
+         src: url('assets/fonts/montserrat/Montserrat-Bold.otf');
+         font-family: 'Montserrat-Black';
+         src: url('assets/fonts/montserrat/Montserrat-Black.otf');
+         font-family: 'Montserrat-Hairline';
+         src: url('assets/fonts/montserrat/Montserrat-Hairline.otf');
+         font-family: 'Montserrat-Light';
+         src: url('assets/fonts/montserrat/Montserrat-Light.otf');
+         font-family: 'Montserrat-Regular';
+         src: url('assets/fonts/montserrat/Montserrat-Regular.otf');
+
+         font-family: 'Roboto-Black';
+         src: url('assets/fonts/roboto/Roboto-Black.ttf');
+         font-family: 'Roboto-BlackItalic';
+         src: url('assets/fonts/roboto/Roboto-BlackItalic.ttf');   
+         font-family: 'Roboto-Bold';
+         src: url('assets/fonts/roboto/Roboto-Bold.ttf'); 
+         font-family: 'Roboto-BoldCondensed';
+         src: url('assets/fonts/roboto/Roboto-BoldCondensed.ttf');   
+         font-family: 'Roboto-BoldCondensedItalic';
+         src: url('assets/fonts/roboto/Roboto-BoldCondensedItalic.ttf'); 
+         font-family: 'Roboto-BoldItalic';
+         src: url('assets/fonts/roboto/Roboto-BoldItalic.ttf'); 
+         font-family: 'Roboto-Italic';
+         src: url('assets/fonts/roboto/Roboto-Italic.ttf'); 
+         font-family: 'Roboto-Light';
+         src: url('assets/fonts/roboto/Roboto-Light.ttf'); 
+         font-family: 'Roboto-LightItalic';
+         src: url('assets/fonts/roboto/Roboto-LightItalic.ttf');
+         font-family: 'Roboto-Medium';
+         src: url('assets/fonts/roboto/Roboto-MediumItalic.ttf'); 
+         font-family: 'Roboto-Regular';
+         src: url('assets/fonts/roboto/Roboto-Regular.ttf');
+         font-family: 'Roboto-Thin';
+         src: url('assets/fonts/roboto/Roboto-Thin.ttf');
+         font-family: 'Roboto-ThinItalic';
+         src: url('assets/fonts/roboto/Roboto-ThinItalic.ttf');
+}
+
+.nv-bg-light{
+  background-color: transparent !Important;
+  border-bottom: 1px solid rgb(0,0,0,0.1);
+}
+
+.p-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: rgba(0,0,0,.7);
+    margin-bottom: 10px;
+    font-family:'Montserrat-Bold';
+}
+
+.p-sub-title{
+    font-size: 35px;
+    line-height: 45px;
+    color: rgba(0,0,0,.7);
+    margin-bottom: 10px;
+}
+
+.p-content{
+  font-size: 1.125rem;
+  line-height: 26px;
+  letter-spacing: .05em;
+  margin-bottom: 40px;
+}
+
+.text-footer{color:rgba(255,255,255,.9);font-size:12px;line-height: 22px;padding:5px;}
+.p-adv{font-size:30px;color:rgba(255,255,255,.9);}
+.p-title-footer{font-size:16px;font-weight:bold;color:#c4c4c4;margin:0 0 40px;}
+.p-footer{font-size:14px;color:#fff;font-family: NunitoSansBold,sans-serif;}
+.ico-bank{filter: grayscale(100%);border:1px solid #c4c4c4;padding:5px;border-radius:5px;}
+.icon-check{margin-right:10px;}
+.bg-grey{background-color:#eff0f1;}
+.bg-blue{background-color:#007bff;}
+.bg-dark{}
+
+.btn-paket{
+  border: 2px solid #000;
+  color: #000;
+  font-weight:500;
+}
+
+.crd-best{border:1px solid #007bff;}
+
+.ribbon {
+  --p: 138px;
+  background-color: #1e7e34;
+  display: inline-block;
+  height: auto;
+  width:100px;
+  box-shadow: rgba(0.60, 0.60, 0.60, 0.60) 3px 3px 3px;
+  transform: rotate(-45deg);
+  margin-bottom: 10px;
+  margin-top: -55px;
+  padding: 10px;
+  position: absolute;
+  right: var(--p);
+  text-align: center;
+  /* -webkit-transform:skew(30deg); -moz-transform:skew(30deg);-ms-transform:skew(30deg);-0-transform:skew(30deg); transform:skew(30deg); */
+}
+
+.ribbon:before,
+.ribbon:after {
+  background-color: inherit;
+  content: '';
+  display: block;
+  height: 100%;
+  position: relative;
+  top: calc(var(--p)/2);
+  width: var(--p);
+  filter: brightness(.5);
+  z-index: -1;
+}
+
+.ribbon:before {
+  left: 0;
+  transform: skewy(45deg);
+}
+
+.ribbon:after {
+  right: 0;
+  transform: skewy(-45deg);
+}
+
+
+.li-best{
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    border: none;
+    background-color:#007bff;
+    color:#fff;
+}
+
+.li-selected2{
+    background-color: #0366d6;
+    color:#fff;
+}
+
+
+.btn-chat{color:#fff;border-color: #fff;width:160px;line-height:17px;height:35px;font-size:14px;}
+.bg-jb-tr{background-color: transparent;}
+.jumbotron h1{font-family:Montserrat-Bold;}
+.list{list-style-type:none;}
+.list-footer{list-style-type:none;color:rgba(255,255,255,.9);font-size:12px;text-align:left;}
+.list-header{list-style-type:none;color:rgba(0,0,0,.7);font-size:16px;}
+
+.link-footer{color:#fff;text-decoration: none;}
+.link-footer:hover{color:#fff;text-decoration: none;}
+/* .nav-item a{color:#000;} */
